@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/corpos.css">
+    <link rel="icon" href="img/icon.png"/>
+    <script defer src="script/script.js"></script>
+    <script  src="script/array.js"></script>
+    <script src="script/arrayg.js"></script>
+    <title>Sistema Solar</title>
+</head>
+
+<body id="body_corp">
+
+  <header id="header">
+    <a id="logo" href="index.html">Sistema Solar</a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="planetas.html">Planetas</a></li>
+        <li><a href="corpos.html">Corpos Celestes</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <h1>Corpos Celestes</h1>
+  <p id="p_principal">Os corpos celestes do Sistema Solar são todos os objetos que orbitam o Sol, incluindo a própria estrela. Eles podem ser divididos em dois grupos principais</p>
+  <h2>Corpos celestes sólidos</h2>
+  <div class="container_corpos" id="cards">
+    <div class="item_seta">
+        <img src="imagens/ant.png" alt="Anterior" id="card_ant" />
+    </div>   
+    <div class="item_card_dest">
+        <img src="" alt="" id="img_card" />
+        <h3 id="titulo_card"></h3>
+        <p id="texto_card"></p>
+    </div>  
+    <div class="item_seta">
+        <img src="imagens/prox.png" alt="Próximo" id="card_prox" />
+    </div> 
+</div>
+
+<h2>Corpos celestes gasosos</h2>
+  <div class="container_corpos" id="cards">
+    <div class="item_seta">
+        <img src="imagens/ant.png" alt="Anterior" id="card_ant_g" />
+    </div>   
+    <div class="item_card_dest">
+        <img src="" alt="" id="img_card_g" />
+        <h3 id="titulo_card_g"></h3>
+        <p id="texto_card_g"></p>
+    </div>  
+    <div class="item_seta">
+        <img src="imagens/prox.png" alt="Próximo" id="card_prox_g" />
+    </div> 
+</div>
+
+
+    </main>
+  </body>
+  </html>
